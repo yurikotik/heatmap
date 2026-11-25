@@ -137,6 +137,9 @@ nav a:hover,
   gap: 64px;
   padding-block: 82px 88px;
 }
+.hero > * {
+  min-width: 0;
+}
 .eyebrow {
   font-size: 10px;
   font-weight: 700;
