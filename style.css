@@ -36,6 +36,12 @@ summary:focus-visible {
   outline: 3px solid #398454;
   outline-offset: 6px;
 }
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+}
 .wrap {
   width: min(1160px, calc(100% - 80px));
   margin-inline: auto;
