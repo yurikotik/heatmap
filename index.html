@@ -1,19 +1,330 @@
-<!doctype html>
-<html>
-	<head>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width" />
-		<title>My static Space</title>
-		<link rel="stylesheet" href="style.css" />
-	</head>
-	<body>
-		<div class="card">
-			<h1>Welcome to your static Space!</h1>
-			<p>You can modify this app directly by editing <i>index.html</i> in the Files and versions tab.</p>
-			<p>
-				Also don't forget to check the
-				<a href="https://huggingface.co/docs/hub/spaces" target="_blank">Spaces documentation</a>.
-			</p>
-		</div>
-	</body>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#112d29">
+    <meta
+      name="description"
+      content="A clearer record of client conversations. Explore a meeting-documentation workflow for investment advisers and portfolio managers, with a 30% off tl;dv Pro referral offer."
+   >
+    <title>Client Records | Dividend Detective &amp; Pensionizer</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header wrap">
+      <a
+        class="brand"
+        href="#"
+        aria-label="Dividend Detective and Pensionizer home"
+        ><span class="brand-mark" aria-hidden="true">d<span>.</span></span
+        ><span
+          >Dividend Detective<span class="brand-sub"
+            >&amp; Pensionizer</span
+          ></span
+        ></a
+      >
+      <nav aria-label="Main navigation">
+        <a href="#workflow">The workflow</a
+        ><a href="#safeguards">Firm safeguards</a
+        ><a class="nav-offer" href="#offer"
+          >Get the offer <span aria-hidden="true">↗</span></a
+        >
+      </nav>
+    </header>
+    <main id="main">
+      <section class="hero wrap" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">
+            <span class="status-dot" aria-hidden="true"></span> FOR ADVISERS.
+            FOR THE RECORD.
+          </p>
+          <h1 id="hero-title">
+            Good advice deserves<br>a <em>clear record.</em>
+          </h1>
+          <p class="hero-description">
+            When questions arise, don't rely on memory. Build a reviewable
+            record of client conversations, instructions, and next steps with
+            tl;dv.
+          </p>
+          <div class="hero-actions">
+            <a
+              class="button"
+              href="https://tldv.cello.so/41fwbPtqZKo"
+              target="_blank"
+              rel="sponsored noopener noreferrer"
+              >Get 30% off tl;dv Pro <span aria-hidden="true">↗</span
+              ><span class="sr-only"> (opens in a new tab)</span></a
+            ><a class="text-link" href="#workflow"
+              >See the workflow <span aria-hidden="true">↓</span></a
+            >
+          </div>
+          <p class="affiliate-note">
+            Referral offer · We may earn a commission, at no extra cost to
+            you.<br>Eligibility and final pricing are confirmed by tl;dv at
+            checkout.
+          </p>
+        </div>
+        <div
+          class="record-preview"
+          role="group"
+          aria-label="Illustrative example of a reviewed meeting record, not a live recording"
+        >
+          <div class="preview-top">
+            <span class="preview-label"
+              ><span class="status-dot" aria-hidden="true"></span> THE CLIENT
+              CONVERSATION RECORD</span
+            ><span class="example-tag">ILLUSTRATION</span>
+          </div>
+          <div class="preview-meeting">
+            <div class="meeting-icon" aria-hidden="true">↗</div>
+            <div>
+              <h2>Portfolio review</h2>
+              <p>Client meeting · Example record</p>
+            </div>
+          </div>
+          <div class="waveform" aria-hidden="true">
+            <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i
+            ><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i
+            ><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i
+            ><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i
+            ><i></i><i></i>
+          </div>
+          <div class="record-timeline">
+            <span>00:00</span><span>32:18</span>
+          </div>
+          <div class="record-tabs">
+            <span>Reviewed summary</span><span>Transcript</span>
+          </div>
+          <div class="record-item">
+            <span class="timestamp">04:12</span>
+            <div>
+              <h3>What was discussed</h3>
+              <p>
+                Income needs, liquidity priorities, and the client's questions.
+              </p>
+            </div>
+          </div>
+          <div class="record-item">
+            <span class="timestamp">18:46</span>
+            <div>
+              <h3>What the client instructed</h3>
+              <p>
+                Document the instruction and check it against the recording.
+              </p>
+            </div>
+          </div>
+          <div class="record-item">
+            <span class="timestamp">28:05</span>
+            <div>
+              <h3>What happens next</h3>
+              <p>
+                Confirm responsibilities and follow-up before taking action.
+              </p>
+            </div>
+          </div>
+          <div class="preview-footer">
+            <span aria-hidden="true">✓</span> Capture. Review. Follow through.
+          </div>
+        </div>
+      </section>
+      <div class="audience-strip">
+        <div class="wrap">
+          <p>BUILT AROUND YOUR PRACTICE</p>
+          <span>U.S. investment advisers</span><span>Canadian advisers</span
+          ><span>Portfolio managers</span>
+        </div>
+      </div>
+      <section
+        class="section wrap"
+        id="workflow"
+        aria-labelledby="workflow-title"
+      >
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">LESS AMBIGUITY. MORE CONTEXT.</p>
+            <h2 id="workflow-title">
+              From conversation<br>to a clearer next step.
+            </h2>
+          </div>
+          <p>
+            A recorder is only the beginning. The value is a repeatable process
+            that keeps people—not AI—in charge.
+          </p>
+        </div>
+        <div class="workflow-grid">
+          <article class="workflow-card">
+            <span class="step">01 / CAPTURE</span>
+            <div class="step-icon" aria-hidden="true">◉</div>
+            <h3>Keep the conversation.</h3>
+            <p>
+              With appropriate consent and firm approval, use tl;dv to record
+              and transcribe meetings on Zoom, Google Meet, or Microsoft Teams.
+            </p>
+          </article>
+          <article class="workflow-card">
+            <span class="step">02 / REVIEW</span>
+            <div class="step-icon" aria-hidden="true">≡</div>
+            <h3>Check what matters.</h3>
+            <p>
+              Use transcripts, timestamps, and AI-generated summaries to revisit
+              discussions. Verify client instructions and correct errors against
+              the recording.
+            </p>
+          </article>
+          <article class="workflow-card">
+            <span class="step">03 / FOLLOW THROUGH</span>
+            <div class="step-icon" aria-hidden="true">↗</div>
+            <h3>Make next steps clear.</h3>
+            <p>
+              Confirm action items, owners, and follow-ups. Preserve approved
+              records in accordance with your firm's policies and required
+              systems.
+            </p>
+          </article>
+        </div>
+      </section>
+      <section
+        class="safeguards-section"
+        id="safeguards"
+        aria-labelledby="safeguards-title"
+      >
+        <div class="wrap safeguards-layout">
+          <div>
+            <p class="eyebrow">DOCUMENTATION SUPPORT. NOT A GUARANTEE.</p>
+            <h2 id="safeguards-title">
+              A stronger process.<br>Not a compliance shortcut.
+            </h2>
+            <p>
+              For advisers in the U.S. and Canada, the right tool must fit the
+              firm's obligations—not the other way around. Have your compliance
+              team assess the service before using it with clients.
+            </p>
+            <a class="text-link" href="#questions"
+              >Questions before you start <span aria-hidden="true">↓</span></a
+            >
+          </div>
+          <ul class="safeguard-list">
+            <li>
+              <span aria-hidden="true">01</span>
+              <div>
+                <h3>Consent comes first</h3>
+                <p>
+                  Obtain appropriate recording consent and follow applicable
+                  laws and firm policies.
+                </p>
+              </div>
+            </li>
+            <li>
+              <span aria-hidden="true">02</span>
+              <div>
+                <h3>Know where the record goes</h3>
+                <p>
+                  Assess privacy, data location, access controls, retention,
+                  export, and deletion before adoption.
+                </p>
+              </div>
+            </li>
+            <li>
+              <span aria-hidden="true">03</span>
+              <div>
+                <h3>Keep human oversight</h3>
+                <p>
+                  AI output may be incomplete or inaccurate. Review it before
+                  relying on it or sharing it.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section
+        class="section wrap faq-layout"
+        id="questions"
+        aria-labelledby="questions-title"
+      >
+        <div>
+          <p class="eyebrow">BEFORE YOU PRESS RECORD</p>
+          <h2 id="questions-title">A few important<br>questions.</h2>
+        </div>
+        <div class="faq-list">
+          <details>
+            <summary>Does this make my practice compliant?</summary>
+            <p>
+              No. This is a meeting-documentation workflow, not legal advice, a
+              regulatory certification, or a guarantee of protection in a
+              dispute. Your firm must determine whether the service and its use
+              meet applicable requirements.
+            </p>
+          </details>
+          <details>
+            <summary>
+              Can this replace our required recordkeeping system?
+            </summary>
+            <p>
+              Do not assume so. Your compliance team should assess retention,
+              supervision, access, export, and any other applicable
+              recordkeeping requirements. Use your firm's approved systems and
+              procedures.
+            </p>
+          </details>
+          <details>
+            <summary>What does the 30% offer cover?</summary>
+            <p>
+              The referral offer is for tl;dv Pro. Follow the offer link to
+              check eligibility, duration, billing terms, and final pricing with
+              tl;dv before purchasing. We may earn a commission if you subscribe
+              through our link, at no extra cost to you.
+            </p>
+          </details>
+          <details>
+            <summary>Is this a recorder built by Dividend Detective?</summary>
+            <p>
+              No. tl;dv is a third-party service. Dividend Detective &amp;
+              Pensionizer shares a documentation workflow and referral offer; we
+              do not operate the recorder or store your meeting records through
+              this page.
+            </p>
+          </details>
+        </div>
+      </section>
+      <section
+        class="offer-section wrap"
+        id="offer"
+        aria-labelledby="offer-title"
+      >
+        <div class="offer-panel">
+          <div>
+            <p class="eyebrow">YOUR NEXT MEETING. BETTER DOCUMENTED.</p>
+            <h2 id="offer-title">Have more than<br>memory to rely on.</h2>
+            <p>Explore tl;dv for your firm's client-conversation workflow.</p>
+          </div>
+          <div class="offer-action">
+            <span class="discount">30% <span>OFF PRO</span></span
+            ><a
+              class="button button-light"
+              href="https://tldv.cello.so/41fwbPtqZKo"
+              target="_blank"
+              rel="sponsored noopener noreferrer"
+              >Explore the tl;dv offer <span aria-hidden="true">↗</span
+              ><span class="sr-only"> (opens in a new tab)</span></a
+            >
+            <p>Referral link · Vendor terms and eligibility apply.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer wrap">
+      <div>
+        <strong>Dividend Detective &amp; Pensionizer</strong>
+        <p>Clear conversations. Considered decisions.</p>
+      </div>
+      <p class="footer-disclaimer">
+        Independent referral page. Not affiliated with any regulator.
+        Documentation tools do not guarantee compliance or legal protection. No
+        client information is collected on this page.
+      </p>
+    </footer>
+  </body>
 </html>
